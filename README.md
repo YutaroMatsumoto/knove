@@ -28,3 +28,23 @@
 - ソート
   新着、いいねが多い順
 - ディレクトリ構成で管理（親の投稿、子の投稿を紐づけられるようにする）
+
+## 認証機能について
+
+- **案 1 Azure AD を利用** <br>
+
+  - ターゲットは Microsoft 365 を法人契約している会社のみになってしまう？
+  - もしくは、こちらでテナントを用意して・・・
+
+- **案 2 Azure AD B2C を利用** <br>
+  - こちらの案が有力かも
+  - B2C を利用する場合、B2C テナントは企業ごとに作成する
+  - 認証は Microsoft アカウントでログインできるようにする（そうすることで、365 の法人プランを利用している企業はより便利に利用することができる？）
+
+## Azure AD 認証
+
+参考資料
+
+- https://docs.microsoft.com/ja-jp/azure/active-directory/develop/tutorial-v2-react
+- https://docs.microsoft.com/ja-jp/azure/active-directory/develop/scenario-spa-app-registration
+- https://docs.microsoft.com/ja-jp/azure/active-directory/develop/scenario-spa-app-registration#redirect-uri-msaljs-20-with-auth-code-flow
