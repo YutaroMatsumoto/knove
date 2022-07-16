@@ -50,3 +50,10 @@
 - https://docs.microsoft.com/ja-jp/azure/active-directory/develop/tutorial-v2-react
 - https://docs.microsoft.com/ja-jp/azure/active-directory/develop/scenario-spa-app-registration
 - https://docs.microsoft.com/ja-jp/azure/active-directory/develop/scenario-spa-app-registration#redirect-uri-msaljs-20-with-auth-code-flow
+
+## Azure AD B2C 認証
+
+参考資料
+
+- https://docs.microsoft.com/ja-jp/azure/active-directory-b2c/configure-authentication-sample-angular-spa-app
+- https://docs.microsoft.com/ja-jp/azure/active-directory/develop/v2-permissions-and-consent#openid-connect-scopes （スコープについて）
