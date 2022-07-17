@@ -40,6 +40,8 @@
   - こちらの案が有力かも
   - B2C を利用する場合、B2C テナントは企業ごとに作成する
   - 認証は Microsoft アカウントでログインできるようにする（そうすることで、365 の法人プランを利用している企業はより便利に利用することができる？）
+  - signup 機能はつけない
+  - b2c を利用するのは、microsoft 365 の契約をされていない企業向けのため。
 
 ## Azure AD 認証
 
@@ -48,3 +50,19 @@
 - https://docs.microsoft.com/ja-jp/azure/active-directory/develop/tutorial-v2-react
 - https://docs.microsoft.com/ja-jp/azure/active-directory/develop/scenario-spa-app-registration
 - https://docs.microsoft.com/ja-jp/azure/active-directory/develop/scenario-spa-app-registration#redirect-uri-msaljs-20-with-auth-code-flow
+
+## Azure AD B2C 認証
+
+参考資料
+
+- https://docs.microsoft.com/ja-jp/azure/active-directory-b2c/configure-authentication-sample-angular-spa-app
+- https://docs.microsoft.com/ja-jp/azure/active-directory/develop/v2-permissions-and-consent#openid-connect-scopes （スコープについて）
+- https://github.com/Azure-Samples/ms-identity-javascript-react-tutorial/blob/main/3-Authorization-II/2-call-api-b2c/SPA/src/authConfig.js
+
+## 検討
+
+- azurite
+
+## Git
+
+https://qiita.com/konatsu_p/items/dfe199ebe3a7d2010b3e?utm_source=Qiita%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9&utm_campaign=1b94df5c7b-Qiita_newsletter_442_12_23_2020&utm_medium=email&utm_term=0_e44feaa081-1b94df5c7b-34690649

@@ -88,3 +88,13 @@ articles {
 }
 
 ```
+
+# 環境構築
+
+```
+# コンテナ立ち上げ
+docker comopse up -d
+
+# apiコンテナに入る
+docker exec -it knove-api sh
+```
