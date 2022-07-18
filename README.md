@@ -1,6 +1,6 @@
 # Git
 
-一応リンクを残しておく
+一応リンクを残しておく<br>
 https://qiita.com/konatsu_p/items/dfe199ebe3a7d2010b3e?utm_source=Qiita%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9&utm_campaign=1b94df5c7b-Qiita_newsletter_442_12_23_2020&utm_medium=email&utm_term=0_e44feaa081-1b94df5c7b-34690649
 
 ## コミットメッセージについて
