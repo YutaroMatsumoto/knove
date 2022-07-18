@@ -97,4 +97,22 @@ docker comopse up -d
 
 # apiコンテナに入る
 docker exec -it knove-api sh
+
+# dbコンテナに入る
+docker exec -it be_db_1 sh
+or
+docker exec -it be_db_1 bash
+
+# ユーザーを指定してdbに接続
+psql -U postgres
+
+# dbの一覧確認
+\l
+
+# db選択
+\c knove-dev
+
+# テーブル一覧確認
+\dt
+
 ```
