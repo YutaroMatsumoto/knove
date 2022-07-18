@@ -1,3 +1,20 @@
+# Git
+
+一応リンクを残しておく
+https://qiita.com/konatsu_p/items/dfe199ebe3a7d2010b3e?utm_source=Qiita%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9&utm_campaign=1b94df5c7b-Qiita_newsletter_442_12_23_2020&utm_medium=email&utm_term=0_e44feaa081-1b94df5c7b-34690649
+
+## コミットメッセージについて
+
+一旦 gitmoji は利用しない
+
+- fix: バグ修正
+- add: 新規機能追加
+- update: 機能修正（バグではない）
+- remove: 機能（ファイル）削除
+- test: テストツール関連
+- chore: ビルド、補助ツール、ライブラリ関連
+- docs: ドキュメントのみの変更
+
 # knove
 
 ## 確認が必要なこと
@@ -62,19 +79,3 @@
 ## 検討
 
 - azurite
-
-# Git
-
-https://qiita.com/konatsu_p/items/dfe199ebe3a7d2010b3e?utm_source=Qiita%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9&utm_campaign=1b94df5c7b-Qiita_newsletter_442_12_23_2020&utm_medium=email&utm_term=0_e44feaa081-1b94df5c7b-34690649
-
-## コミットメッセージについて
-
-一旦 gitmoji は利用しない
-
-- fix: バグ修正
-- add: 新規機能追加
-- update: 機能修正（バグではない）
-- remove: 機能（ファイル）削除
-- test: テストツール関連
-- chore: ビルド、補助ツール、ライブラリ関連
-- docs: ドキュメントのみの変更
