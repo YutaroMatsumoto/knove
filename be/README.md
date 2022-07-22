@@ -111,13 +111,7 @@ erDiagram
 users
 
 users {
-  id number
-  user_id string
-  email string
-  first_name string
-  lastName string
-  gender string
-  user_status: string
+  test test
 }
 
 
