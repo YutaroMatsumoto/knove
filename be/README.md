@@ -108,7 +108,7 @@ psql -U postgres
 ```mermaid
 erDiagram
 
-users ||--o| articles: ""
+users
 
 users {
   id number
