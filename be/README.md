@@ -111,7 +111,8 @@ erDiagram
 users
 
 users {
-  id number,
+  strint user_id
+  
   
 }
 
