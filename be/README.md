@@ -111,7 +111,8 @@ erDiagram
 users
 
 users {
-  test test
+  id number,
+  
 }
 
 
