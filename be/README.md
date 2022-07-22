@@ -72,26 +72,12 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 Nest is [MIT licensed](LICENSE).
 
-# mermad テスト
-
-```mermaid
-erDiagram
-
-users ||--o| articles: ""
-
-users {
-  test test
-}
-
-articles {
-  test test
-}
-
-```
-
 # 環境構築
 
 ```
+# ts-nodeをグローバルインストールしておいてください（グローバルインストールで良いのか確認）
+yarn global add ts-node
+
 # コンテナ立ち上げ
 docker comopse up -d
 
@@ -114,5 +100,25 @@ psql -U postgres
 
 # テーブル一覧確認
 \dt
+
+```
+
+# ER 図（mermaid）
+
+```mermaid
+erDiagram
+
+users ||--o| articles: ""
+
+users {
+  id number
+  user_id string
+  email string
+  first_name string
+  lastName string
+  gender Gender
+  user_status: UserStatus
+}
+
 
 ```
