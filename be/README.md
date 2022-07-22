@@ -116,8 +116,8 @@ users {
   email string
   first_name string
   lastName string
-  gender Gender
-  user_status: UserStatus
+  gender string
+  user_status: string
 }
 
 
