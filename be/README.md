@@ -111,7 +111,7 @@ erDiagram
 users
 
 users {
-  PK strint user_id
+  string user_id
   string email
   string first_name
   string lastName
