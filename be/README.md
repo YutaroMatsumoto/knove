@@ -111,12 +111,14 @@ erDiagram
 users
 
 users {
-  strint user_id
+  PK strint user_id
   string email
   string first_name
   string lastName
   string gender
   string user_status
+  date cerated_at
+  date updated_at
 }
 
 
