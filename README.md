@@ -11,6 +11,7 @@ https://qiita.com/konatsu_p/items/dfe199ebe3a7d2010b3e?utm_source=Qiita%E3%83%8B
 - add: 新規機能追加
 - update: 機能修正（バグではない）
 - remove: 機能（ファイル）削除
+- clean: 整理（リファクタリング等）
 - test: テストツール関連
 - chore: ビルド、補助ツール、ライブラリ関連
 - docs: ドキュメントのみの変更
