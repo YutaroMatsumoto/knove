@@ -103,6 +103,13 @@ psql -U postgres
 
 ```
 
+## migration
+
+```
+# migrationファイルの作成（entityファイルから作る）
+yarn typeorm migration:generate src/migration/****
+```
+
 # ER 図（mermaid）
 
 ```mermaid
