@@ -101,6 +101,9 @@ psql -U postgres
 # テーブル一覧確認
 \dt
 
+# テーブルのカラム確認
+\d テーブル名
+ex. \d users
 ```
 
 ## migration
