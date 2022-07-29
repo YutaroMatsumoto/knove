@@ -110,7 +110,7 @@ ex. \d users
 
 ```
 # migrationファイルの作成（entityファイルから作る）
-yarn typeorm migration:generate src/migration/****
+yarn migration:gen src/migration/****
 ```
 
 # ER 図（mermaid）
