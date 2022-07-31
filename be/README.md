@@ -103,7 +103,8 @@ psql -U postgres
 
 # テーブルのカラム確認
 \d テーブル名
-ex. \d users
+ex.
+\d user
 ```
 
 ## migration
